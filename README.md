@@ -8,7 +8,14 @@ For the overworld-copy dimension, an item tag is added to change the requirement
 
 ## Usage
 
-This datapack can be easily downloaded either as a ready to use archive file (`.zip`) or as source code to be freely customized.
+This datapack can be easily downloaded either as an archive file (`.zip`) or as source code to be freely customized.  
+If downloaded as a `.zip`, remember to extract the content and zip it again so that you get the following structure:
+```
+example.zip >
+  pack.mcmeta
+  data >
+    ...
+```
 
 ## Issues
 
