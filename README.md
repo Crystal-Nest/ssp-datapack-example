@@ -3,8 +3,10 @@
 ## Aim
 
 This simple example datapack provides the basic structure to use [Server Sided Portals](https://github.com/Crystal-Nest/server-sided-portals).  
-It adds two dimensions, a copy of the overworld and a complete void one, and defines for each the block tag for the portal frame.  
-For the overworld-copy dimension, an item tag is added to change the requirement to light up the portal: a breeze rod (blaze rod in older versions) is required.
+It adds two dimensions, a copy of the Overworld and a complete void one, and defines for each the block tag for the portal frame.  
+For the Overworld-copy dimension, an item tag is added to change the requirement to light up the portal: a breeze rod (blaze rod in older versions) is required.  
+While the Overworld-copy is accessible from the Overworld, the void dimension is accessible from the Overworld-copy dimension instead.  
+Players entering the Overworld-copy dimension will see their gamemode changed to adventure if their permission level is lower than or equal to 3, otherwise their gamemode will change to creative.
 
 ## Usage
 
@@ -16,6 +18,8 @@ example.zip >
   data >
     ...
 ```
+
+If you have any question, join our [Discord server](https://discord.gg/BP6EdBfAmt) and ask right away!
 
 ## Issues
 
