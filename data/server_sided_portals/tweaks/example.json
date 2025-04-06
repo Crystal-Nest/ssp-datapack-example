@@ -1,0 +1,27 @@
+[
+  {
+    "dimension": "example:mirror",
+    "connection": "minecraft:overworld",
+    "gamemode": [
+      {
+        "type": "adventure",
+        "permission": 3,
+        "players": [
+          "6be8d691-9635-4468-ace3-69a05a4440b6"
+        ]
+      },
+      {
+        "type": "creative",
+        "permission": 4,
+        "players": [
+          "069a79f4-44e9-4726-a5be-fca90e38aaf5"
+        ],
+        "whitelist": true
+      }
+    ]
+  },
+  {
+    "dimension": "example:void",
+    "connection": "example:mirror"
+  }
+]
