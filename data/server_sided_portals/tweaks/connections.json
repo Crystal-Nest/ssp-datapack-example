@@ -1,0 +1,5 @@
+[
+  { "dimension": "helios:greenfields",  "connection": "minecraft:overworld" },
+  { "dimension": "helios:litho_world",  "connection": "minecraft:overworld" },
+  { "dimension": "helios:cobblefarms",  "connection": "minecraft:overworld" }
+]
