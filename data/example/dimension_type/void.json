@@ -1,23 +1,33 @@
 {
-  "ultrawarm": false,
-  "natural": false,
-  "piglin_safe": true,
-  "respawn_anchor_works": true,
-  "bed_works": false,
-  "has_raids": false,
-  "has_skylight": false,
+  "attributes": {
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "never",
+      "can_set_spawn": "never",
+      "explodes": true
+    },
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:visual/ambient_light_color": "#3f473f",
+    "minecraft:visual/fog_color": "#181318",
+    "minecraft:visual/sky_color": "#000000",
+    "minecraft:visual/sky_light_color": "#ac60cd",
+    "minecraft:visual/sky_light_factor": 0.0
+  },
+  "coordinate_scale": 16.0,
   "has_ceiling": false,
-  "coordinate_scale": 16,
-  "ambient_light": 0,
-  "logical_height": 384,
-  "effects": "minecraft:the_end",
-  "infiniburn": "#minecraft:infiniburn_end",
-  "min_y": 0,
+  "has_ender_dragon_fight": false,
+  "has_skylight": false,
   "height": 384,
+  "infiniburn": "#minecraft:infiniburn_end",
+  "logical_height": 384,
+  "min_y": 0,
+  "ambient_light": 0.0,
+  "monster_spawn_block_light_limit": 0,
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",
     "min_inclusive": 0,
     "max_inclusive": 7
   },
-  "monster_spawn_block_light_limit": 0
+  "skybox": "end"
 }
